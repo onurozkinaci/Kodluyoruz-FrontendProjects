@@ -1,0 +1,109 @@
+
+/*-----------------------------------CSS For Main Page(index.html) Starts;--------------------------------------------------------*/
+/* Belirtilen External CSS özellikleri aşağıdaki gibidir; */
+ body {
+    background-color:#1a1a1a;
+}
+
+.text-dark {
+    color:#e64040;
+}
+
+h2 {
+	color: blue;
+	font-size :25px;
+	font-family: sans-serif; 
+}
+
+/*a'nin visited ozelligi bu font ozellikleri ile ilgili olmadigindan bu ozellikleri
+nav icin atamis oldugun nav-top id'si uzerinden vermen dogrudur;*/
+.nav-top {
+    font-size:1.25em;
+    font-family: sans-serif;
+}
+
+/*Yalnizca nav-top'a ait anchorlarin(link elementlerinin)
+rengini degistirecek, sayfadaki diger linkler buradan etkilenmeyecek; */
+.nav-top a:visited {
+    font-size:1.25em;
+    font-family: sans-serif;
+    background-color:transparent;
+}
+
+
+a:visited {
+    color:blue;
+    background-color:transparent;
+}
+
+a:hover {
+    color:green;
+    background-color:transparent;
+}
+
+/*500px'e kadar tum cihazlara yonelik olarak section kismini ortalamak icin bu sekilde belirttim.
+list-style-position: inside kullanildiginda listelerin noktalari tam ortalanmiyor ve alt alta duzgun bir sirada durmuyor; */
+.mp-section {
+    /*max-width: 500px;
+    margin: auto;*/
+	text-align: center;
+	list-style-position: inside;
+}
+
+/* Articleların içerisindeki elemanlara style atamak için; */
+.artc {
+	font-size :1.25em;
+	color: #f2f2f2; 
+}
+
+#nav-bottom {
+    font-size:1.25em;
+    font-family: sans-serif;
+}
+/*-----------------------------------CSS For Main Page(index.html) Ends--------------------------------------------------------*/
+
+/*-----------------------------------CSS For Film Reccomendation Page(reccomends.html) Starts;--------------------------------------------------------*/
+/*"margin: auto" means horizontally center the element within its container. The element will then take up the specified width, and the remaining space will be split 
+equally between the left and right margins. Also, the width of the element is given to specify its location more clear. When it is given less in terms of percentage,
+ it will occupy less space and it will be closer to the right side of the page because of that. So, it is given as 70% to be centered;*/
+.movie-container {
+	display: flex; /*container içerisindeki divleri yan yana vermek için */
+	margin: auto; 
+    width: 70%;
+	background-color:transparent;
+}
+
+/*div'in içerisindeki paragrafları div'e sığacak şekilde düzenlemek için div'e width verildi ve word-wrap ile paragrafın içindeki yazıların alt satıra kaydırılması sağlandı.
+margin ve padding ile de aynı container(movie-container) class'ı altında bulunan divlerin arasında  boşluk bırakılması sağlandı;*/
+.movie-container div {
+	background-color: #f1f1f1;
+	border: 5px outset #ff9900; /*div'in dış çerçevesini renklendirmek ve belirginleştirmek için */
+	border-radius: 8px; /*divlerin köşelerini ovalleştirmek için */
+	margin: 10px;
+	padding: 20px;
+	font-size: 18px;
+	width:350px;
+    word-wrap: break-word;
+	text-align:center;
+}
+
+h3 {
+	color: #202020;
+	font-size :20px;
+	font-family: sans-serif;
+}
+/*-----------------------------------CSS For Film Reccomendation Page(reccomends.html) Ends--------------------------------------------------------*/
+
+/*-----------------------------------CSS For About Us Page(about-us.html) Starts;--------------------------------------------------------*/
+.abt-section {
+	font-size :1.25em;
+	color: #f2f2f2;
+}
+
+#abt-nav-bottom,#abt-nav-bottom a {
+	color: #f2f2f2;
+}
+/*-----------------------------------CSS For About Us Page(about-us.html) Ends;--------------------------------------------------------*/
+
+
+
