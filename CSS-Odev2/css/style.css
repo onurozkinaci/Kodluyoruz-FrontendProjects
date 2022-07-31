@@ -1,0 +1,47 @@
+
+.search-section {
+    background-color: rgb(238, 238, 238);
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2px;
+}
+/* div sonrasinda gelecek objectlerin float'tan etkilenmemesi icin; */
+.clear {
+    clear: both;
+}
+
+.body-section {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#subpart-1 {
+   background-color: rgb(126, 229, 218);
+   width: 525px;
+   height: 60px;
+   float: left;
+   margin-right: 2px;
+   padding: 20px 50px 5px 50px;
+   font-size: 16px;
+}
+
+#subpart-2 {
+    background-color: rgb(112, 204, 194);
+    float: left;
+    width: 250px;
+    height: 70px;
+    margin-right: 2px;
+    padding: 10px 50px 5px 50px;
+    font-size: 13px;
+}
+
+#subpart-3 {
+    background-color: rgb(98, 179, 170);
+    float: left;
+    width: 634px;
+    height: 75px;
+    padding: 5px 50px 5px 50px;
+    font-size: 12px;
+}
