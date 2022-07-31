@@ -11,6 +11,7 @@
     clear: both;
 }
 
+
 .body-section {
     width: 90%;
     margin: 0 auto;
@@ -44,4 +45,17 @@
     height: 75px;
     padding: 5px 50px 5px 50px;
     font-size: 12px;
+}
+
+/*Responsive structure for when the screen is 2000px or less(responsive structure with CSS);*/
+@media screen and (max-width: 1000px){
+    #subpart-1{
+        width: 200px; 
+    }
+    #subpart-2 {
+        width: 100px; 
+    }
+    #subpart-3 {
+        width: 243px; 
+    }
 }
