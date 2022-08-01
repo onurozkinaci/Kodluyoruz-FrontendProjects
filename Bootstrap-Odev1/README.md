@@ -6,6 +6,6 @@ oluşturuldu.**
 kullanılan ve Boostrap'e ait bir class olan .card class'ı, etkili bir arayüz
 sunulmasını sağladı.
 
-![bootstrap_ss](https://user-images.githubusercontent.com/54003775/182251651-b50152d7-268c-4bdf-9488-de58a121566e.PNG)
+![bootstrap_ss](https://user-images.githubusercontent.com/54003775/182254201-eb19372c-a677-472a-b6cd-8c388a8047f5.PNG)
 
 [Patika](https://www.patika.dev/)
