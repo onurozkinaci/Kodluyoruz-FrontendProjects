@@ -78,9 +78,3 @@ input.empty {
    background-color: #fff;
    border: 0;
 }
-
-/* Sağ üstte yer alan menü kısmına sayfa sm boyutunda olunca kaybolacak şekilde display verin. Bunun için Bootstrap Display property sayfasını inceleyebilirsiniz.*/
-/* Not:div'in icerisinde yer alan span icin ellipses ve comment adinda iki class tanimlandi ve burada yukarida da gozuktugu uzere
-bu classlara float=right denilerek bulunduklari div'in sagina yerlestirildiler.
-Bundan farkli olarak bookmark ikonlarini sag tarafa yerlestirmek icin offset-7 class'i kullanildi ve offset degeri ile bu ikonlarin
-yeri degistirildi. */
