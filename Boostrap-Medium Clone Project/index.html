@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Medium</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/medium.css">
+
+</head>
+<body>
+    <!-- "border-bottom" ile div'in altina cizgi cekildi; -->
+    <!-- "fixed-top" ile navbar sayfa scroll edilse bile gozukur ve yukari sabitlenir; -->
+    <div class="bg-yellow border-bottom-dark py-1 fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <strong>Medium</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <!-- ml-auto ile sol taraftan otomatik olarak saga(sona)ittik elementleri -->
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Our Story</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Membership</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Write</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign In</a>
+                      </li>
+                    <li class="nav-item ml-3"> <!--ml-3 ile left(sol) kisminda kalan elementle arasini aciyor.-->
+                        <a class="nav-link btn btn-dark text-light" href="#">Get Started</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+    </div>
+
+    <!--div'e "mt-5" verilerek navbar ile ic ice gecmesi engellendi;-->
+    <div class="bg-yellow py-5 border-bottom-dark mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-5">
+                    <!--display-4 ile h1(header) daha buyuk yazildi;-->
+                    <h1 class="display-4">Explore new<br> perspectives</h1>
+                    <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, doloribus!
+                        <!-- u is used to add an underline to text -->
+                        <a href="#" class="text-dark"><u>Learn More.</u></a>
+                    </p>
+                    <a href="#" class="btn btn-outline-dark">Get Started</a>
+                </div>
+                <div class="col-7">
+                    <img src="https://picsum.photos/300/300" alt="world-img"
+                     class="rounded-circle float-right">
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <!--Articles start;-->
+    <div class="container mt-5">
+        <div class="row">
+             <div class="col-12 mb-2">
+                  <h6><i class="fa-solid fa-rocket"></i>
+                    <small class="ml-2">TRENDING ON MEDIUM</small></h6>
+             </div>
+            <article class="col-sm-4 mb-2">
+                <div class="row"> <!--tekrar 12'lik sistem olusturulur--> 
+                    <div class="col-1">
+                        <h6 class="text-muted"><strong>01</strong></h6>
+                    </div>
+                    <div class="col-11">
+                        <img class="rounded-circle" src="https://picsum.photos/id/11/25/25" alt="">
+                        <span class="small ml-1">Will Leitch</span> <!--inline element old.direkt yanina gelir image'in-->
+                        <h6 class="mt-2"><strong>Confessions of a Pandemic Risk-Taker</strong></h6> <!--block element old. altina gelir bir onceki elementin-->
+                        <ul class="list-inline small">
+                            <li class="list-inline-item">Dec 1</li>
+                            <li class="list-inline-item">6 min read</li>
+                            <li class="list-inline-item">
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <article class="col-sm-4 mb-2">
+            <div class="row"> <!--tekrar 12'lik sistem olusturulur--> 
+                    <div class="col-1">
+                        <h6 class="text-muted"><strong>02</strong></h6>
+                    </div>
+                    <div class="col-11">
+                        <img class="rounded-circle" src="https://picsum.photos/id/12/25/25" alt="">
+                        <span class="small ml-1">Chicago White Sox <small class="text-muted">in</small> Inside The White Sox</span> <!--inline element old.direkt yanina gelir image'in-->
+                        <h6 class="mt-2"><strong>White Sox Announce Coaching Staff for 2021 Season</strong></strong></h6> <!--block element old. altina gelir bir onceki elementin-->
+                        <ul class="list-inline small">
+                            <li class="list-inline-item">Dec 1</li>
+                            <li class="list-inline-item">5 min read</li>
+                            <li class="list-inline-item">
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+            </article>
+            <article class="col-sm-4 mb-2">
+                <div class="row"> <!--tekrar 12'lik sistem olusturulur--> 
+                    <div class="col-1">
+                        <h6 class="text-muted"><strong>03</strong></h6>
+                    </div>
+                    <div class="col-11">
+                        <img class="rounded-circle" src="https://picsum.photos/id/13/25/25" alt="">
+                        <span class="small ml-1">Will Leitch</span> <!--inline element old.direkt yanina gelir image'in-->
+                        <h6 class="mt-2"><strong>Confessions of a Pandemic Risk-Taker</strong></h6> <!--block element old. altina gelir bir onceki elementin-->
+                        <ul class="list-inline small">
+                            <li class="list-inline-item">Dec 1</li>
+                            <li class="list-inline-item">6 min read</li>
+                            <li class="list-inline-item">
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <article class="col-sm-4 mb-2">
+                <div class="row"> <!--tekrar 12'lik sistem olusturulur--> 
+                    <div class="col-1">
+                        <h6 class="text-muted"><strong>04</strong></h6>
+                    </div>
+                    <div class="col-11">
+                        <img class="rounded-circle" src="https://picsum.photos/id/14/25/25" alt="">
+                        <span class="small ml-1">Will Leitch</span> <!--inline element old.direkt yanina gelir image'in-->
+                        <h6 class="mt-2"><strong>Confessions of a Pandemic Risk-Taker</strong></h6> <!--block element old. altina gelir bir onceki elementin-->
+                        <ul class="list-inline small">
+                            <li class="list-inline-item">Dec 1</li>
+                            <li class="list-inline-item">6 min read</li>
+                            <li class="list-inline-item">
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <article class="col-sm-4 mb-2">
+                <div class="row"> <!--tekrar 12'lik sistem olusturulur--> 
+                    <div class="col-1">
+                        <h6 class="text-muted"><strong>05</strong></h6>
+                    </div>
+                    <div class="col-11">
+                        <img class="rounded-circle" src="https://picsum.photos/id/15/25/25" alt="">
+                        <span class="small ml-1">Will Leitch</span> <!--inline element old.direkt yanina gelir image'in-->
+                        <h6 class="mt-2"><strong>Confessions of a Pandemic Risk-Taker</strong></h6> <!--block element old. altina gelir bir onceki elementin-->
+                        <ul class="list-inline small">
+                            <li class="list-inline-item">Dec 1</li>
+                            <li class="list-inline-item">6 min read</li>
+                            <li class="list-inline-item">
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            <article class="col-sm-4 mb-2">
+                <div class="row"> <!--tekrar 12'lik sistem olusturulur--> 
+                    <div class="col-1">
+                        <h6 class="text-muted"><strong>06</strong></h6>
+                    </div>
+                    <div class="col-11">
+                        <img class="rounded-circle" src="https://picsum.photos/id/18/25/25" alt="">
+                        <span class="small ml-1">Will Leitch</span> <!--inline element old.direkt yanina gelir image'in-->
+                        <h6 class="mt-2"><strong>Confessions of a Pandemic Risk-Taker</strong></h6> <!--block element old. altina gelir bir onceki elementin-->
+                        <ul class="list-inline small">
+                            <li class="list-inline-item">Dec 1</li>
+                            <li class="list-inline-item">6 min read</li>
+                            <li class="list-inline-item">
+                                <i class="fa-solid fa-star"></i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </article>        
+        </div>
+    </div>
+    <!--Articles end;-->
+
+    <!--Article'larin alt kismi icin;-->
+    <!--border-top-dark class'i(medium.css icerisinde tanimlandi) ile ustle araya cizgi/sinir cekildi(border),pt-5 ile de mesafe birakildi;-->
+    <div class="border-top-dark mt-5">
+        <div class="container">
+            <div class="row mt-5">
+                <section class="col-sm-8">
+                     <article class="row mb-3">
+                        <div class="col-sm-8">
+                            <img class="rounded-circle" src="https://picsum.photos/id/9/25/25" alt="">
+                            <span class="small ml-1">Will Leitch</span> <!--inline element old.direkt yanina gelir image'in-->
+                            <h6 class="mt-2"><strong>Confessions of a Pandemic Risk-Taker</strong></h6> <!--block element old. altina gelir bir onceki elementin-->
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quaerat?
+                            </p>
+                            <ul class="list-inline small">
+                                <li class="list-inline-item">Dec 1</li>
+                                <li class="list-inline-item">6 min read</li>
+                                <li class="list-inline-item">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4">
+                            <img class="w-100" src="https://picsum.photos/id/9/400/250"></img>
+                        </div>
+                     </article>
+                     <article class="row mb-3">
+                        <div class="col-sm-8">
+                            <img class="rounded-circle" src="https://picsum.photos/id/11/25/25" alt="">
+                            <span class="small ml-1">Will Leitch</span> <!--inline element old.direkt yanina gelir image'in-->
+                            <h6 class="mt-2"><strong>Confessions of a Pandemic Risk-Taker</strong></h6> <!--block element old. altina gelir bir onceki elementin-->
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quaerat?
+                            </p>
+                            <ul class="list-inline small">
+                                <li class="list-inline-item">Dec 1</li>
+                                <li class="list-inline-item">6 min read</li>
+                                <li class="list-inline-item">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4">
+                            <img class="w-100" src="https://picsum.photos/id/25/400/250"></img>
+                        </div>
+                     </article>
+                     <article class="row mb-3">
+                        <div class="col-sm-8">
+                            <img class="rounded-circle" src="https://picsum.photos/id/58/25/25" alt="">
+                            <span class="small ml-1">Will Leitch</span> <!--inline element old.direkt yanina gelir image'in-->
+                            <h6 class="mt-2"><strong>Confessions of a Pandemic Risk-Taker</strong></h6> <!--block element old. altina gelir bir onceki elementin-->
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, quaerat?
+                            </p>
+                            <ul class="list-inline small">
+                                <li class="list-inline-item">Dec 1</li>
+                                <li class="list-inline-item">6 min read</li>
+                                <li class="list-inline-item">
+                                    <i class="fa-solid fa-star"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4">
+                            <img class="w-100" src="https://picsum.photos/id/27/400/250"></img>
+                        </div>
+                     </article>
+                </section>
+                <aside class="col-sm-4">
+                    <h6><small><strong>DISCOVER MORE OF WHAT MATTERS TO YOU</strong></small></h6>
+                    <ul class="list-inline aside-buttons">
+                        <!--"btn-sm" is used to make the button smaller;-->
+                        <li class="list-inline-item">
+                            <a class="btn btn-sm btn-outline-secondary" href="#">Lorem.</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-sm btn-outline-secondary" href="#">Ipsum.</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-sm btn-outline-secondary" href="#">Dolor.</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-sm btn-outline-secondary" href="#">Lorem.</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-sm btn-outline-secondary" href="#">Ipsum.</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-sm btn-outline-secondary" href="#">Dolor.</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-sm btn-outline-secondary" href="#">Lorem.</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-sm btn-outline-secondary" href="#">Ipsum.</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-sm btn-outline-secondary" href="#">Dolor.</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-sm btn-outline-secondary" href="#">Lorem.</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-sm btn-outline-secondary" href="#">Ipsum.</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-sm btn-outline-secondary" href="#">Dolor.</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-sm btn-outline-secondary" href="#">Lorem.</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-sm btn-outline-secondary" href="#">Ipsum.</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-sm btn-outline-secondary" href="#">Dolor.</a>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
