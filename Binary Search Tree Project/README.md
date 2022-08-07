@@ -22,7 +22,8 @@ karsilasilan 8 degerinden de buyuk oldugundan, 8'in sag tarafina yerlestirilir.
  3'un sol tarafina yerlestirilir.
  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Asagida bu Binary Search Tree'nin ekran goruntusunu de bulabilirsiniz;**
-![binarysearchtree](https://user-images.githubusercontent.com/54003775/183304187-b3ee8233-3425-47ef-ac66-d31dd0c241c0.png)
+![binarysearchtree](https://user-images.githubusercontent.com/54003775/183304273-dbf7e639-fc06-4803-bcbe-0e390620f570.png)
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 [Patika](https://www.patika.dev/tr)
 
