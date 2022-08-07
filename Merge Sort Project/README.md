@@ -13,7 +13,7 @@ Sağ taraf ise [8,12,22] olarak kendi içerisinde birleşir.
 6) Son olarak sol ve sağ taraf birleşerek [8,11,12,16,21,22] şeklinde
 sıralanmış sayı dizisi elde edilir.
 ##### Soru 2: Big-O gösterimini yazınız.
-Diziyi yaraıya bölerek ilerlenmesi ile 2^x = n kadar yani logn kadar işlem yapılır 
+Diziyi yarıya bölerek ilerlenmesi ile 2^x = n kadar yani logn kadar işlem yapılır 
 ve tekrar birleştirmek için n-1 kadar sorgulama yapıldığından, toplamda 
 O(nlogn) time complexity'ye sahip bir algoritmadır. 
 
