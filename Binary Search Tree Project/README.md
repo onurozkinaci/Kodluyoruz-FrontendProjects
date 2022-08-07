@@ -1,5 +1,5 @@
 ## Patika-Project With Binary Search Tree
-### Dizin: [7,5,1,8,3,6,0,9,4,2] -> Binary Search Tree;
+### Dizi: [7,5,1,8,3,6,0,9,4,2] -> Binary Search Tree;
 ##### Soru : Verilen dizinin Binary-Search-Tree aşamalarını yazınız.
 1) Root Node = 7 olarak yerlestirilir/belirlenir.
 2) 5 degeri root'tan(7) kucuk oldugundan root'un sol tarafina yerlestirilir.

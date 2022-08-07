@@ -1,5 +1,5 @@
 ## Patika-Project With Merge Sort
-### Dizin: [16,21,11,8,12,22] -> Merge Sort;
+### Dizi: [16,21,11,8,12,22] -> Merge Sort;
 ##### Soru 1: Yukarı verilen dizinin sort türüne göre aşamalarını yazınız.
 1) [16,21,11] ve [8,12,22] şeklinde sağ ve sol taraf olarak ikiye bölünür,
 2) Sol taraf [16,21] ve [11] olarak ikiye bölünür,
