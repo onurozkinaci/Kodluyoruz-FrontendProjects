@@ -1,0 +1,63 @@
+#nav {
+    background-color: orange;
+    height: 180px;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+/*     padding:5px;
+    margin-bottom:5px;
+    margin-top:2px; */
+    border: 1px solid;
+}
+
+.li-div:hover {
+    cursor: pointer;   
+}
+
+.btn-item {
+    margin-right:5px;
+    margin-bottom:5px;
+}
+
+
+/* changing the input size acc.to screen size; */
+@media only screen and (max-width: 768px) {
+    #todo {
+		width:250px;
+	}
+	.error {
+		top:300px;
+		right:0;
+	}
+	.success {
+		top:300px;
+		right:0;
+	}
+	.li-div {
+	   background-color: rgb(242, 239, 239);
+	   padding-left:20px;
+	   width:500px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+    #todo {
+		height:35px;
+		width:500px;
+	}
+	.error {
+		top:0;
+		right:0;
+	}
+	.success {
+		top:0;
+		right:0;
+	}
+	.li-div {
+	   background-color: rgb(242, 239, 239);
+	   padding-left:20px;
+	   width:1140px;
+	}
+}
